@@ -1,11 +1,9 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.27;
 
-import {console} from "forge-std/Test.sol";
 import {TransparentUpgradeableProxy} from "@openzeppelin/contracts/proxy/transparent/TransparentUpgradeableProxy.sol";
 import {IERC20} from "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 import {IPool} from "@aave-v3-origin/interfaces/IPool.sol";
-import {DataTypes} from "@aave-v3-origin/protocol/libraries/types/DataTypes.sol";
 import {IUiPoolDataProviderV3} from "@aave-v3-origin/helpers/interfaces/IUiPoolDataProviderV3.sol";
 import {Vault} from "@yieldnest-vault/Vault.sol";
 import {Etches} from "@yieldnest-vault-test/mainnet/helpers/Etches.sol";
