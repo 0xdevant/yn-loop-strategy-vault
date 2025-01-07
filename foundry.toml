@@ -1,0 +1,9 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+evm_version = "shanghai"
+
+[rpc_endpoints]
+  localhost = "http://localhost:8545"
+  mainnet = "https://mainnet.gateway.tenderly.co/7RD9cnZ7KS59acpfp6l9JM"

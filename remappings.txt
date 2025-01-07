@@ -1,0 +1,8 @@
+forge-std/=lib/forge-std/src/
+@aave-v3-origin/=lib/aave-v3-origin/src/contracts/
+@yieldnest-vault/=lib/yieldnest-vault/src/
+@yieldnest-vault-test/=lib/yieldnest-vault/test/
+
+@openzeppelin/contracts=./lib/yieldnest-vault/lib/openzeppelin-contracts/contracts
+lib/openzeppelin-contracts=./lib/yieldnest-vault/lib/openzeppelin-contracts
+lib/openzeppelin-contracts-upgradeable=./lib/yieldnest-vault/lib/openzeppelin-contracts-upgradeable
